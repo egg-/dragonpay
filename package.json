@@ -1,0 +1,37 @@
+{
+  "name": "dragonpay",
+  "version": "1.0.0",
+  "author": {
+    "name": "egg",
+    "email": "i@egg.pe.kr"
+  },
+  "description": "payment through dragonpay API",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egg-/dragonpay.git"
+  },
+  "keywords": [
+    "dragonpay"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egg-/dragonpay/issues"
+  },
+  "homepage": "https://github.com/egg-/dragonpay#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-mocha-test": "^0.13.3",
+    "matchdep": "^2.0.0",
+    "mocha": "^5.2.0",
+    "nock": "^10.0.6",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
